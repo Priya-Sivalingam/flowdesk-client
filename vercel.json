@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "http://flowdesk-production.eba-umvnisit.ap-south-1.elasticbeanstalk.com/api/:path*"
+    }
+  ]
+}
